@@ -1,0 +1,13 @@
+id,prompt,category
+1,  Giải thích attention trong Transformer bằng 3 câu  ,Explain
+2,Viết hàm Python đảo ngược chuỗi,code
+3,,chat
+4,giải thích   attention trong transformer bằng 3 câu,explain
+5,Tóm tắt đoạn văn sau: Hà Nội là thủ đô của Việt Nam.,
+6,Dịch sang tiếng Anh: Tôi đang học AI Engineer,translate
+7,   ,chat
+8,So sánh RAG và fine-tuning trong 5 gạch đầu dòng,Explain
+8,Câu này trùng id với dòng trên,chat
+9,Viết SQL đếm số user theo tháng,CODE
+10,Kể một câu chuyện cười về lập trình viên,
+11,Liệt kê 3 rủi ro khi triển khai chatbot nội bộ,explain

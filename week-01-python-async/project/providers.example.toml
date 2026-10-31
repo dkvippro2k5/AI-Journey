@@ -1,0 +1,18 @@
+# Mẫu cấu hình provider. Giá là GIÁ GIẢ ĐỊNH (USD / 1 triệu token) để tính ví dụ.
+# Muốn gọi API thật: copy thành providers.toml, điền base_url/model thật, và đặt API key trong .env.
+
+[[providers]]
+name = "alpha"
+base_url = "https://alpha.example/v1"
+model = "MODEL_ID"
+api_key_env = "ALPHA_API_KEY"
+price_in = 3.0
+price_out = 15.0
+
+[[providers]]
+name = "beta"
+base_url = "https://beta.example/v1"
+model = "MODEL_ID"
+api_key_env = "BETA_API_KEY"
+price_in = 0.5
+price_out = 1.5
