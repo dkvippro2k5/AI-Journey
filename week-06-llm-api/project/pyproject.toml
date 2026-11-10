@@ -1,0 +1,16 @@
+[project]
+name = "gateway"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["numpy", "pandas", "scikit-learn", "httpx", "pydantic>=2", "tiktoken", "fastapi"]
+
+[project.optional-dependencies]
+serve = ["uvicorn"]
+local = ["torch", "transformers"]          # tùy chọn: LLM nhỏ chạy local (gateway/local_llm.py)
+dev = ["pytest", "ruff"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
